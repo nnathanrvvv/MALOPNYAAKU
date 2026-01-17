@@ -16,7 +16,7 @@
 body{background-color:#000;font-family:var(--gaya-font);padding: 20px 25px;-webkit-user-select: none; -ms-user-select: none; user-select: none;} a{text-decoration:none;}
 body::before{content:"\00A9  Nathan | nnathanrvvv - nanoyy";color:white;opacity:.12;font-size:11px;position:fixed;bottom:25px;right:25px;z-index:2}
 #bodyblur{opacity:.3;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);transition:all 1s ease;} 
-#wallpaper{animation: jj 10s infinite;width:100%;height:100%;transform: scale(1);transition:all 1.3s ease;}
+#wallpaper{infinite;width:100%;height:100%;transform: scale(1);transition:all 1.3s ease;}
 #beneranblur{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);-webkit-backdrop-filter:blur(0px); backdrop-filter:blur(0px);transition:all 3s ease;}
 
 @keyframes jj{0%  {transform: scale(1);} 50% {transform: scale(1.2);} 100% {transform: scale(1);}}
@@ -99,4 +99,5 @@ svg{vertical-align: middle;width: 22px;height: 22px;fill: #fff}
     .progress-bar {height: 3px;border-radius: 8px;width: 100%;transition: all .2s ease;background: linear-gradient(to right, #fff 0%, #fff 100%);}
     
     .awalan{margin-top:20px;width:220px;min-height:25px;padding:12px;font-size:13px;color:white;background:rgba(0,0,0,.5);border:1px solid #fff;border-radius:20px;display:flex;align-items:center;text-align:left}
+
 .awalan svg{margin-right:15px;width:25px;height:25px;stroke:white}
